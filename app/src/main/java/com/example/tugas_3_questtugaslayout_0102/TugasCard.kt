@@ -49,7 +49,7 @@ fun TugasCard(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(35.dp))
 
-        Cardblock()
+        AnimeCard()
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -65,7 +65,7 @@ fun TugasCard(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun Cardblock(
+fun AnimeCard(
     animeTitle: Int,
     animeGenre: Int,
     animeDescription: Int,
