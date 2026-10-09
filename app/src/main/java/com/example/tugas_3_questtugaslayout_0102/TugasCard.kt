@@ -109,9 +109,9 @@ fun Cardblock(
                     color = colorResource(titleColor)
                 )
                 Text(
-                    stringResource(R.string.nim),
-                    fontSize = 14.sp,
-                    color = Color.Blue,
+                    text = stringResource(animeGenre),
+                    fontSize = 12.sp,
+                    color = colorResource(genreColor),
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 Text(
