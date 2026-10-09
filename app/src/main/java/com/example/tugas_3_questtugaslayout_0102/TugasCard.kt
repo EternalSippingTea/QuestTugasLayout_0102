@@ -115,9 +115,9 @@ fun Cardblock(
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 Text(
-                    stringResource(R.string.alamat),
-                    fontSize = 14.sp,
-                    color = Color.Yellow,
+                    text = stringResource(animeDescription),
+                    fontSize = 12.sp,
+                    color = colorResource(descColor),
                     modifier = Modifier.padding(top = 4.dp)
                 )
             }
