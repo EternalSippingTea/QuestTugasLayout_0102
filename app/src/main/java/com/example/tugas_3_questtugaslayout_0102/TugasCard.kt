@@ -79,6 +79,16 @@ fun TugasCard(modifier: Modifier = Modifier) {
             descColor = R.color.card_2_desc
         )
 
+        AnimeCard(
+            animeTitle = R.string.ani_title3,
+            animeGenre = R.string.ani_genre3,
+            animeDescription = R.string.ani_desc3,
+            animeImage = R.drawable.chunibyou,
+            cardColor = R.color.card_3_bg,
+            genreColor = R.color.card_3_genre,
+            descColor = R.color.card_3_desc
+        )
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
