@@ -78,10 +78,10 @@ fun Cardblock(
 ) {
     Card(
         modifier = modifier
-            .fillMaxWidth(1f)
-            .padding(12.dp),
+            .fillMaxWidth()
+            .padding(vertical = 5.dp),
         colors = CardDefaults.cardColors(
-            containerColor = colorResource(R.color.card_0_bg)
+            containerColor = colorResource(cardColor)
         )
     ) {
         Row(
