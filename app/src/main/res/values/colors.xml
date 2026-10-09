@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Card Backgrounds -->
+    <color name="card_0_bg">#3B4E68</color>
+    <color name="card_1_bg">#4E6E5D</color>
+    <color name="card_2_bg">#8C5A4C</color>
+    <color name="card_3_bg">#5E4B5A</color>
+
+    <!-- Card Text Colors -->
+    <color name="card_0_genre">#70D6FF</color>
+    <color name="card_0_desc">#FFE082</color>
+
+    <color name="card_1_genre">#B9F6CA</color>
+    <color name="card_1_desc">#FFCCBC</color>
+
+    <color name="card_2_genre">#FFF59D</color>
+    <color name="card_2_desc">#80DEEA</color>
+
+    <color name="card_3_genre">#E1BEE7</color>
+    <color name="card_3_desc">#FFCC80</color>
+</resources>

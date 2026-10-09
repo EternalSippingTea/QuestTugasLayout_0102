@@ -65,7 +65,17 @@ fun TugasCard(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun Cardblock(modifier: Modifier = Modifier) {
+fun Cardblock(
+    animeTitle: Int,
+    animeGenre: Int,
+    animeDescription: Int,
+    animeImage: Int,
+    cardColor: Int,
+    modifier: Modifier = Modifier,
+    titleColor: Int = R.color.white,
+    genreColor: Int = R.color.card_0_genre,
+    descColor: Int = R.color.card_0_desc
+) {
     Card(
         modifier = modifier
             .fillMaxWidth(1f)
