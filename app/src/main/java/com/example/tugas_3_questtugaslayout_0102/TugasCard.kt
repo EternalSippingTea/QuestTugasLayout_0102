@@ -103,10 +103,10 @@ fun Cardblock(
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    stringResource(R.string.nama),
-                    fontSize = 18.sp,
-                    fontFamily = FontFamily.Cursive,
-                    color = Color.White
+                    text = stringResource(animeTitle),
+                    fontSize = 17.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(titleColor)
                 )
                 Text(
                     stringResource(R.string.nim),
