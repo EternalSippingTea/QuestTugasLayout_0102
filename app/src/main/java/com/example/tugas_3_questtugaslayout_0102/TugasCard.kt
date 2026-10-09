@@ -91,12 +91,10 @@ fun Cardblock(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            val gambar = painterResource(R.drawable.umylogo)
-            val gambar2 = painterResource(R.drawable.ti)
             Image(
-                painter = gambar,
+                painter = painterResource(animeImage),
                 contentDescription = null,
-                modifier = Modifier.size(65.dp).padding(4.dp)
+                modifier = Modifier.size(65.dp)
             )
             Column(
                 modifier = Modifier
