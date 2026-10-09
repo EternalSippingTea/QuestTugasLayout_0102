@@ -49,7 +49,16 @@ fun TugasCard(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(35.dp))
 
-        AnimeCard()
+        AnimeCard(
+            animeTitle = R.string.ani_title0,
+            animeGenre = R.string.ani_genre0,
+            animeDescription = R.string.ani_desc0,
+            animeImage = R.drawable.kakushigoto,
+            cardColor = R.color.card_0_bg,
+            genreColor = R.color.card_0_genre,
+            descColor = R.color.card_0_desc
+        )
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
