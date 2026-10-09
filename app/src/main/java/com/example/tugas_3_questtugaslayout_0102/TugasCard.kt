@@ -99,8 +99,8 @@ fun Cardblock(
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .padding(horizontal = 8.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
+                    .padding(horizontal = 10.dp),
+                verticalArrangement = Arrangement.Center
             ) {
                 Text(
                     stringResource(R.string.nama),
