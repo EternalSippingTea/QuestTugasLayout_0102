@@ -30,19 +30,23 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun TugasCard(modifier: Modifier = Modifier) {
     Column(
-        modifier = modifier.padding(top = 100.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier
+            .fillMaxSize()
+            .padding(horizontal = 12.dp)
+            .padding(top = 60.dp, bottom = 20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            stringResource(R.string.prodi),
+            text = stringResource(R.string.title),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold
         )
+
         Text(
-            stringResource(R.string.univ),
+            text = stringResource(R.string.sub_title),
             fontSize = 22.sp
         )
+
         Spacer(modifier = Modifier.height(35.dp))
 
         Cardblock()
