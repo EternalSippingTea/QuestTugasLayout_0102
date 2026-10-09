@@ -122,9 +122,9 @@ fun Cardblock(
                 )
             }
             Image(
-                painter = gambar2,
-                contentDescription = null,
-                modifier = Modifier.size(65.dp).padding(4.dp)
+                painter = painterResource(R.drawable.bookmark),
+                contentDescription = "Bookmark",
+                modifier = Modifier.size(40.dp)
             )
         }
     }
