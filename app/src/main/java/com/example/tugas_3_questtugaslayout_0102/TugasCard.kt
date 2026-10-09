@@ -17,7 +17,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -27,6 +26,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Preview (showBackground = true)
 @Composable
 fun TugasCard(modifier: Modifier = Modifier) {
     Column(
@@ -38,7 +38,7 @@ fun TugasCard(modifier: Modifier = Modifier) {
     ) {
         Text(
             text = stringResource(R.string.title),
-            fontSize = 35.sp,
+            fontSize = 28.sp,
             fontWeight = FontWeight.Bold
         )
 
@@ -89,17 +89,12 @@ fun TugasCard(modifier: Modifier = Modifier) {
             descColor = R.color.card_3_desc
         )
 
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-        ) {
-            Text(
-                stringResource(R.string.copy),
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .padding(bottom = 50.dp)
-            )
-        }
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = 10.sp
+        )
     }
 }
 
