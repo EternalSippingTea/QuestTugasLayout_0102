@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tugas - 3 - QuestTugasLayout_0102</string>
+
+    <string name="title">Anime Recommendation List</string>
+    <string name="sub_title">Personal Taste</string>
+
+    <string name="ani_title0">Kakushigoto</string>
+    <string name="ani_genre0">Slice of Life, Comedy</string>
+    <string name="ani_desc0">A father hides his manga career from his daughter.</string>
+
+    <string name="ani_title1">Witch Hat Atelier</string>
+    <string name="ani_genre1">Fantasy, Adventure</string>
+    <string name="ani_desc1">A young girl discovers the secret art of magic.</string>
+
+    <string name="ani_title2">World Trigger</string>
+    <string name="ani_genre2">Sci-Fi, Action, Strategy</string>
+    <string name="ani_desc2">Defenders protect Earth using tactical weaponry.</string>
+
+    <string name="ani_title3">Love, Chunibyo and Other Delusions!</string>
+    <string name="ani_genre3">Romance, Comedy, Slice of Life</string>
+    <string name="ani_desc3">A high schooler deals with his delusions and love.</string>
+
+    <string name="copy">Copyright 2026</string>
+</resources>
